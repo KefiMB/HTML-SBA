@@ -29,11 +29,36 @@ p {
     letter-spacing: 2px;
     word-spacing: 2px;
 }
-h1{
-    text-shadow: 2px 2px 2px #432818
+
+h1 {
+    text-shadow: 2px 2px 2px #432818 ;
+    animation-delay: 3s;
+    animation-name: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
-form{
+
+form {
     border: 2px solid #335c67;
-    -webkit-box-shadow: inset -8px 5px 37px 0px rgba(0,0,0,0.4); 
-box-shadow: inset -8px 5px 37px 0px rgba(0,0,0,0.4);
+    -webkit-box-shadow: inset -8px 5px 37px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: inset -8px 5px 37px 0px rgba(0, 0, 0, 0.4);
+}
+
+img {
+    display: inline-flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: nowrap;
+
+}
+
+table {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+td:hover {
+    background-color: #606c38;
+    color: #335c67;
 }
